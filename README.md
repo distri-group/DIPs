@@ -20,6 +20,6 @@ If you intend to output a good scheme for Distri.AI, you can refer to [DIP-0](DI
 
 # DIPs
 
-|DIP #   | Title  | Author  | Status  |
-|---|---|---|---|
-|[0000](DIP-0.md)   | DIP Purpose and Guidelines  | Distri group  | Final  |
+|DIP #   | Title  | Author  | Created  | Status  |
+|---|---|---|---|---|
+|[0000](DIP-0.md)   | DIP Purpose and Guidelines  | Distri group  | 12-25-2023 | Final  |
