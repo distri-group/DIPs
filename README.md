@@ -23,3 +23,5 @@ If you intend to output a good scheme for Distri.AI, you can refer to [DIP-0](DI
 |DIP #   | Title  | Author  | Created  | Status  |
 |---|---|---|---|---|
 |[0000](DIP-0.md)   | DIP Purpose and Guidelines  | Distri group  | 12-25-2023 | Final  |
+|[0001](DIP-1.md)   | Computing Power Market: Returns and refunds  | Shaka  | 2-2-2024 | Approved and on the Roadmap  |
+|[0002](DIP-2.md)   | DIP Purpose and Guidelines  | Hank Clark  | 2-2-2024 | Approved and on the Roadmap  |
