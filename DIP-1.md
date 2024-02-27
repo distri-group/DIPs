@@ -27,7 +27,13 @@ This proposal impacts all members of the Distri.AI community.
 
 ### Implementation
 
+Add `refund_order(ctx: Context<RefundOrder>)` instruction in [DistriAI-Core-Solana](https://github.com/distri-group/DistriAI-Core-Solana) (core Solana program for the DistriAI).
 
+When a buyer wants a refund and calls this instruction, the following will happen:
+- Calculate the order used duration, any part of an hour will be counted as one hour.
+- Check that the order used duration must be less than the order duration.
+- Calculate `order price * order used duration = order used amount`, and transfer `order used amount` DIST to the seller.
+- Calculate `order amount - order used amount = order refund amount`, and transfer `order refund amount` DIST to the buyer.
 
 ### **Other Considerations**
 
